@@ -1,0 +1,22 @@
+{
+  "goal": "Reach safety without dying.",
+  "state": {
+    "health": 4,
+    "enemy_distance": 2.5,
+    "has_cover": true
+  },
+  "actions": [
+    {
+      "id": "attack",
+      "description": "Attack the nearby enemy."
+    },
+    {
+      "id": "retreat",
+      "description": "Move behind nearby cover."
+    },
+    {
+      "id": "wait",
+      "description": "Do nothing for one control step."
+    }
+  ]
+}
